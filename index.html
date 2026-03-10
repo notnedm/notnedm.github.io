@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./static/img/favicon.ico" />
+    <title>Michael Denton - Full-stack Software Engineer</title>
+    <script src="./static/tailwind.js"></script>
+  </head>
+  <body class="bg-gray-50">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-md"
+      >Skip to main content</a
+    >
+    <div class="flex h-screen">
+      <!-- Sidebar -->
+      <aside
+        aria-label="Profile"
+        class="w-72 h-screen bg-gray-800 text-gray-200 p-6 flex flex-col overflow-hidden"
+      >
+        <header class="shrink-0">
+          <img class="rounded-full mb-2 w-36 mx-auto" src="./static/img/profile.jpeg" alt="Photo of Michael Denton" />
+          <h1 class="text-3xl font-bold">Michael Denton</h1>
+          <p class="text-md text-gray-300">Full-stack software engineer</p>
+        </header>
+        <nav aria-label="Contact information" class="shrink-0 mt-4">
+          <h2 class="text-sm font-medium text-gray-400 uppercase tracking-wide">
+            Contact
+          </h2>
+          <hr class="border-gray-600 my-2" />
+          <ul class="flex flex-col gap-2 text-sm">
+            <li class="flex items-center gap-2">
+              <img
+                class="w-5 h-5 shrink-0"
+                src="./static/img/linkedin.svg"
+                alt="LinkedIn icon"
+                aria-hidden="true"
+              />
+              <a
+                href="https://linkedin.com/in/michaelnotned"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline focus:outline focus:outline-2 focus:outline-blue-400 focus:rounded"
+              >
+                michaelnotned
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+            </li>
+            <li class="flex items-center gap-2">
+              <img
+                class="w-5 h-5 shrink-0"
+                src="./static/img/github.svg"
+                alt="GitHub icon"
+                aria-hidden="true"
+              />
+              <a
+                href="https://github.com/notnedm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline focus:outline focus:outline-2 focus:outline-blue-400 focus:rounded"
+              >
+                @notnedm
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <section
+          aria-labelledby="skills-heading"
+          class="mt-4 flex-1 flex flex-col min-h-0"
+        >
+          <h2
+            id="skills-heading"
+            class="text-sm font-medium text-gray-400 uppercase tracking-wide shrink-0"
+          >
+            Skills
+          </h2>
+          <hr class="border-gray-600 my-2 shrink-0" />
+          <div class="flex flex-col gap-3 overflow-y-auto pr-2">
+            <div>
+              <h3
+                id="languages-skills"
+                class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1.5"
+              >
+                Languages
+              </h3>
+              <ul
+                class="flex flex-wrap gap-1.5 text-xs"
+                aria-labelledby="languages-skills"
+              >
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  TypeScript
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  JavaScript
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">Go</li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Java
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">C#</li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">SQL</li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Protobuf
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3
+                id="frontend-skills"
+                class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1.5"
+              >
+                Frontend
+              </h3>
+              <ul
+                class="flex flex-wrap gap-1.5 text-xs"
+                aria-labelledby="frontend-skills"
+              >
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  React
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Angular
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  React Native
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Material UI
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Tailwind
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3
+                id="backend-skills"
+                class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1.5"
+              >
+                Backend & Data
+              </h3>
+              <ul
+                class="flex flex-wrap gap-1.5 text-xs"
+                aria-labelledby="backend-skills"
+              >
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  .NET
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  PostgreSQL
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  MongoDB
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  SQL Server
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Kinesis
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Kafka
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Debezium
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">DBT</li>
+              </ul>
+            </div>
+            <div>
+              <h3
+                id="cloud-skills"
+                class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1.5"
+              >
+                Cloud & DevOps
+              </h3>
+              <ul
+                class="flex flex-wrap gap-1.5 text-xs"
+                aria-labelledby="cloud-skills"
+              >
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">AWS</li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Azure
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Terraform
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  ArgoCD
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  GitHub Actions
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  GitLab CI
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  CloudFront
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3
+                id="auth-skills"
+                class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1.5"
+              >
+                Auth & Integration
+              </h3>
+              <ul
+                class="flex flex-wrap gap-1.5 text-xs"
+                aria-labelledby="auth-skills"
+              >
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Auth0
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  OIDC
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  SAML
+                </li>
+                <li class="rounded bg-gray-700 px-2 py-1 text-gray-200">
+                  Contentful
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <!-- Main Content -->
+      <main id="main-content" class="flex-1 overflow-auto" tabindex="-1">
+        <div class="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-10">
+          <!-- Summary -->
+          <section aria-labelledby="summary-heading" class="mb-10">
+            <h2
+              id="summary-heading"
+              class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200"
+            >
+              Summary
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+              Full-stack software engineer with over
+              <strong>6 years of experience</strong> building scalable
+              applications and modernizing legacy systems. Specialized in React,
+              .NET, and Go with a focus on delivering reliable, user-centric
+              solutions across fintech, retail, and security sectors.
+            </p>
+          </section>
+
+          <!-- Work Experience -->
+          <section aria-labelledby="experience-heading" class="mb-10">
+            <h2
+              id="experience-heading"
+              class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200"
+            >
+              Work Experience
+            </h2>
+            <div class="flex flex-col gap-8">
+              <article class="flex flex-col gap-3">
+                <header
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+                >
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900">
+                      Secure Code Warrior
+                    </h3>
+                    <p class="text-gray-600">Software Engineer</p>
+                  </div>
+                  <time
+                    class="text-sm text-gray-500 font-medium"
+                    datetime="2024-05"
+                    >May 2024 - Present</time
+                  >
+                </header>
+                <ul class="list-disc list-outside ml-5 text-gray-700 space-y-2">
+                  <li>
+                    Designed and built end-to-end data pipeline ingesting
+                    telemetry from VSCode extension via Postgres, Debezium CDC,
+                    Kinesis, and Go microservices into a reporting database with
+                    DBT pre-processing and React-based reporting UI.
+                  </li>
+                  <li>
+                    Developed custom protoc plugin generating Go types and SQL
+                    migrations, ensuring type consistency across protobuf
+                    messages and database schemas.
+                  </li>
+                  <li>
+                    Became Design System codeowner across EU and AU regions,
+                    migrated projects from conflicting MUI theme overrides to
+                    standardized component architecture, and expanded
+                    codeownership to include junior engineers for cross-regional
+                    knowledge sharing.
+                  </li>
+                  <li>
+                    Published custom ESLint plugin to enforce icon variant
+                    standards (Rounded, Outlined) across all consuming projects,
+                    supporting both direct and destructured import patterns.
+                  </li>
+                  <li>
+                    Mentored junior engineers through pair programming, code
+                    reviews, and career growth discussions; coached ship-first
+                    mentality with solution-ready approaches to accelerate
+                    stakeholder feedback loops.
+                  </li>
+                </ul>
+              </article>
+
+              <article class="flex flex-col gap-3">
+                <header
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+                >
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900">
+                      WooliesX
+                    </h3>
+                    <p class="text-gray-600">Software Engineer</p>
+                  </div>
+                  <time
+                    class="text-sm text-gray-500 font-medium"
+                    datetime="2024-01"
+                    >Jan 2024 - May 2024</time
+                  >
+                </header>
+                <ul class="list-disc list-outside ml-5 text-gray-700 space-y-2">
+                  <li>
+                    Diagnosed and resolved critical MongoDB race condition
+                    caused by state machine upserts re-inserting deleted
+                    records, implementing proper intent-based database verbs
+                    with logging and alerting—eliminating an issue occurring
+                    multiple times daily across all branches.
+                  </li>
+                  <li>
+                    Built React Native geo-fencing POC for click-and-collect
+                    auto check-in, enabling staff pre-emption for faster order
+                    handover with customer parking space selection flow.
+                  </li>
+                </ul>
+              </article>
+
+              <article class="flex flex-col gap-3">
+                <header
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+                >
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900">Zip Co</h3>
+                    <p class="text-gray-600">Software Engineer</p>
+                  </div>
+                  <time
+                    class="text-sm text-gray-500 font-medium"
+                    datetime="2019-11"
+                    >Nov 2019 - Dec 2023</time
+                  >
+                </header>
+                <ul class="list-disc list-outside ml-5 text-gray-700 space-y-2">
+                  <li>
+                    Consolidated 4 separate UI applications (AngularJS, Angular
+                    7, Angular 8) into a unified React SPA via phased migration
+                    with feature flags and CloudFront redirects, addressing a
+                    decade of legacy tech debt.
+                  </li>
+                  <li>
+                    Rewrote critical image manipulation library using Canvas
+                    APIs to maintain backwards compatibility with existing
+                    submissions while meeting modern coding standards for
+                    business profile icons.
+                  </li>
+                  <li>
+                    Extracted bank file generation from monolith to isolated
+                    .NET Core service managed by ArgoCD, reducing processing
+                    time from 4 hours to 5 minutes and improving reliability for
+                    Finance team daily operations.
+                  </li>
+                  <li>
+                    Migrated merchant portal from .NET Framework to .NET Core
+                    microservices including order processing, user management,
+                    and Auth0 SSO integration (OIDC/SAML).
+                  </li>
+                  <li>
+                    Achieved transaction creation conversion improvement from
+                    mid-40s% to 67% and reduced support tickets enough to shift
+                    team from purely inbound to outbound operations.
+                  </li>
+                  <li>
+                    Mentored remote engineers across Ukraine and India through
+                    code review and workflow validation; contributed 95% of
+                    frontend migration and 40% of backend API work with full
+                    ownership of bank file orchestration.
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <!-- Education -->
+          <section aria-labelledby="education-heading">
+            <h2
+              id="education-heading"
+              class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200"
+            >
+              Education
+            </h2>
+            <div class="flex flex-col lg:flex-row gap-6">
+              <article class="flex basis-50%">
+                <header
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+                >
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900">
+                      Bachelor of Creative Technology
+                    </h3>
+                    <p class="text-gray-600">
+                      Audio Engineering & Sound Production
+                    </p>
+                  </div>
+                </header>
+              </article>
+              <article class="flex basis-50%">
+                <header
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1"
+                >
+                  <div>
+                    <h3 class="text-xl font-semibold text-gray-900">
+                      Certificate III
+                    </h3>
+                    <p class="text-gray-600">
+                      Live Production, Theatre, and Events
+                    </p>
+                  </div>
+                </header>
+              </article>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
